@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 32e46329a3c8e6e4d8c0f203d292d257, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -141,6 +141,16 @@ MonoBehaviour:
   tileSize: 1
   yOffset: 0.65
   boardCenter: {x: 0, y: 0, z: 0}
+  prefabs:
+  - {fileID: 3997699494418902464, guid: 9937031d80fe4814a82e369ff9919580, type: 3}
+  - {fileID: 6486053665979368832, guid: f78212945e8c60247bafd1731e73c35b, type: 3}
+  - {fileID: 8064847497613268618, guid: 7c1e1d329ecaf5545b43e5b0b2412495, type: 3}
+  - {fileID: 4580871778619594210, guid: 0c12b60228587fa4f985c7c4488442a9, type: 3}
+  - {fileID: 3947488642408022850, guid: 95728ffdb87193f4ab013796ab132e05, type: 3}
+  - {fileID: 2339836666574088518, guid: 383169093600d794eb522e6da3b85f05, type: 3}
+  teamMaterials:
+  - {fileID: 2100000, guid: 4c4a1e9bfc2d9514badf2a056c5c70eb, type: 2}
+  - {fileID: 2100000, guid: 1759d8b23153c6b4cb814025aff0d1bf, type: 2}
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -499,7 +509,7 @@ PrefabInstance:
     - target: {fileID: -598924728142155867, guid: f8240f56620675048b620db2a1e1750a, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 255135f8d81f13f40a733a78e388874c, type: 2}
+      objectReference: {fileID: 2100000, guid: 5850be57ed1dec84d86485944ef92ad9, type: 2}
     - target: {fileID: 919132149155446097, guid: f8240f56620675048b620db2a1e1750a, type: 3}
       propertyPath: m_Name
       value: ChessBoard
@@ -507,11 +517,11 @@ PrefabInstance:
     - target: {fileID: 3322242921767332135, guid: f8240f56620675048b620db2a1e1750a, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: c543fb390bc4fae4baef47774215418c, type: 2}
+      objectReference: {fileID: 2100000, guid: 255135f8d81f13f40a733a78e388874c, type: 2}
     - target: {fileID: 5642479587328125397, guid: f8240f56620675048b620db2a1e1750a, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 3a9fad1fdf854c04a8da7e8353b1e68e, type: 2}
+      objectReference: {fileID: 2100000, guid: c543fb390bc4fae4baef47774215418c, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
